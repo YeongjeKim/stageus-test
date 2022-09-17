@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stagelog</title>
+    <link rel="stylesheet" type="text/css" href="stagelog.css">
+    <style>
+        a {
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration: none;
+            color: #3F79ED;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header_left">
+            <a id="home_button" href="home.html">
+                <img id="home_button_light" src="images/stageus_logo_black.png">
+                <img id="home_button_dark" src="images/stageus_logo_white.png">
+            </a>
+        </div>
+        <div id="header_right">
+            <a class="header_button" href="upload.html">
+                <img class="header_button_image" src="images/upload.png">
+            </a>
+            <a class="header_button" href="profile.html">
+                <img class="header_button_image" src="images/profile.png">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h1>회원정보 조회</h1>
+            </article>
+
+            <article id="profile_article">
+                <table id="profile_table">
+                    <tr>
+                        <td class="profile_table_left">아이디</td>
+                        <td class="profile_table_right">yeongje</td>
+                    </tr>
+                    <tr>
+                        <td class="profile_table_left">닉네임</td>
+                        <td class="profile_table_right">김영제</td>
+                    </tr>
+                    <tr>
+                        <td class="profile_table_left">이메일</td>
+                        <td class="profile_table_right">dualfinal@naver.com</td>
+                    </tr>
+                    <tr>
+                        <td class="profile_table_left">전화번호</td>
+                        <td class="profile_table_right">010-3632-6875</td>
+                    </tr>
+                </table>
+            </article>
+
+            <div id="index_footer">
+                <!-- 이 부분 <a>의 CSS는 파일분리를 하지않고 현재 파일의 상단에 설정하였습니다. -->
+                <a>회원정보 수정</a>
+                <a>비밀번호 변경</a>
+            </div>
+        </section>
+    
+    <script src="stagelog.js"></script>
+</body>
+</html>

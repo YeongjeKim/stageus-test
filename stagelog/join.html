@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stagelog</title>
+    <link rel="stylesheet" type="text/css" href="stagelog.css">
+    <style>
+        span {
+            font-size: 20px;
+            padding-top: 5px;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            color: #767676;
+        }
+        p {
+            margin: 0px;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-size: 16px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: #767676;
+        }
+        a:hover {
+            color: #3F79ED;
+        }
+    </style>
+</head>
+<body>
+    <main id="join_main">
+        <img id="join_logo" src="images/stageus_logo_black.png">
+
+        <form id="join_form">
+            <section class="join_section">
+                <p>아이디</p>
+                <div class="join_section_form">
+                    <input class="join_section_input" type="text">
+                </div>
+
+                <p>비밀번호</p>
+                <div class="join_section_form">
+                    <input class="join_section_input" type="password">
+                </div>
+                
+                <p>비밀번호 확인</p>
+                <div class="join_section_form">
+                    <input class="join_section_input" type="password">
+                </div>
+            </section>
+
+            <section class="join_section">
+                <p>닉네임</p>
+                <div class="join_section_form">
+                    <input class="join_section_input" type="text">
+                </div>
+
+                <!--
+                <p>성별</p>
+                <div class="join_section_form">
+                    <select id="join_section_gender" value="gender">
+                        <option selected>선택하지 않음</option>
+                        <option>남성</option>
+                        <option>여성</option>
+                    </select>
+                </div>
+                -->
+            </section>
+
+            <section class="join_section">
+                <p>이메일 (선택)</p>
+                <div class="join_section_form">
+                    <input id="join_section_email" type="text">
+                    <span>@</span>
+                    <select id="join_section_address" value="address">
+                        <option selected>이메일을 선택하세요</option>
+                        <option> gmail.com </option>
+                        <option> naver.com </option>
+                        <option> inha.edu </option>
+                    </select>
+                </div>
+
+                <p>전화번호 (선택)</p>
+                <div class="join_section_form">
+                    <input class="join_section_phone" type="text" maxlength="3">
+                    <span>-</span>
+                    <input class="join_section_phone" type="text" maxlength="4">
+                    <span>-</span>
+                    <input class="join_section_phone" type="text" maxlength="4">
+                </div>
+
+                <p>생년월일 (선택)</p>
+                <div class="join_section_form">
+                    <input class="join_section_birth" type="text" placeholder="년(4자)">
+                    <select id="join_section_month" value="month">
+                        <option selected> 월 </option>
+                        <!-- 월은 자바스크립트 반복문으로 구현했습니다 -->
+                    </select>
+                    <input class="join_section_birth" type="text" placeholder="일">
+                </div>
+            </section>
+
+            <section class="join_section">
+                <input id="join_button" type="submit" value="가입하기">
+            </section>
+        </form>
+
+        <a href="home.html">홈페이지로</a>
+    </main>
+    
+    <script src="stagelog.js"></script>
+</body>
+</html>

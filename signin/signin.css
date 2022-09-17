@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 400px;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#signin_box {
+    width: 100%;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#signin_box_up {
+    height: 40px;
+    border-bottom: 1px solid #DADADA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#signin_box_down {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.signin_input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+}
+
+#signin_button {
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #FFC000;
+    border: 0px solid black;
+    border-radius: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#signin_bottom {
+    width: 400px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #888888;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #888888;
+}
+
+a:hover {
+    color: #FFC000;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* text-decoration: underline; */
+}
+
+
+@media (max-width: 415px) {
+    #logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    form {
+        width: 300px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+    #signin_bottom {
+        width: 300px;
+    }
+}

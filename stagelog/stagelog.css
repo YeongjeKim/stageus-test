@@ -1,0 +1,358 @@
+/* index페이지 CSS 설정 ------------------------------------------------------------------------ */
+
+#index_body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#index_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#index_logo {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#index_login {
+    width: 400px;
+    padding: 30px;
+    border: 2px solid #C6C6C6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index_login_input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #DADADA;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+#index_login_button {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    background-color: #3F79ED;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+#index_footer {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* 회원가입 페이지 CSS 설정 ---------------------------------------------------------------------------------------------------- */
+
+#join_main {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#join_logo {
+    margin-top: 50px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#join_form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.join_section {
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.join_section_form {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join_section_input {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+#join_section_gender {
+    width: 100%;
+    height: 110%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+#join_section_email {
+    width: 45%;
+    height: 100%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+#join_section_address {
+    width: 45%;
+    height: 110%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+.join_section_phone {
+    width: 27%;
+    height: 100%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+.join_section_birth {
+    width: 30%;
+    height: 100%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+#join_section_month {
+    width: 30%;
+    height: 110%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+}
+
+#join_button {
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 0px solid black;
+    border-radius: 4px;
+    background-color: #3F79ED;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+/* 공통 적용 CSS(1) = 텍스트들에 대한 것 ------------------------------------------------------------------------------------------------------------------- */
+
+h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+h3 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    display: inline-block;
+}
+p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+time {
+    margin: 0;
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    color: #767676;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 공통 적용 CSS(2) = header와 body에 대한 설정 --------------------------------------------------------------------------------------------------------- */
+
+body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+#header_left {
+    margin-left: 10%;
+}
+
+#home_button {
+    height: 100%;
+}
+
+#home_button_light {
+    height: 100%;
+}
+
+#home_button_dark {
+    height: 100%;
+    display: none;
+}
+
+#header_right {
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+}
+
+.header_button {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_button_image {
+    height: 30px;
+}
+
+/* 공통 설정(3) = main, section, article에 대한 CSS 설정 -------------------------------------------------------------------------------------- */
+
+main {
+    width: 100%;
+    position: relative;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    border: 1px solid #C6C6C6;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+/* 회원정보 페이지에 대한 설정 --------------------------------------------------------------------------------------------------------------------------------- */
+
+.profile_table {
+    width: 100%;
+    border: 1px solid #C6C6C6;
+    border-collapse: collapse;
+}
+
+.profile_table_left {
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.profile_table_right {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+}
+
+/* 업로드 페이지에 대한 설정-------------------------------------------------------------------------------------------------------------------------------- */
+
+#table_table {
+    margin: 0;
+}
+
+.upload_name {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.upload_form {
+    width: 90%;
+    padding: 10px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.upload_input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #C6C6C6;
+    border-radius: 4px;
+    vertical-align: top;
+}
+
+#upload_title {
+    height: 30px;
+}
+
+#upload_content {
+    height: 250px;
+}
+
+#upload_button_frame {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#upload_button {
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    border: 0px solid black;
+    border-radius: 4px;
+    background-color: #3F79ED;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}

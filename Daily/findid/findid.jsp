@@ -13,7 +13,9 @@
 
     <main>
         <div>
-            <img id="logo" src="../images/Daily logo black2.png">
+            <a href="../signin/signin.jsp">
+                <img id="logo" src="../images/Daily logo black2.png">
+            </a>
         </div>
 
         <form>

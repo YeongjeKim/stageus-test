@@ -24,7 +24,7 @@ main {
     height: 60px;
 }
 
-.findid_top_title {
+.findpw_top_title {
     width: 50%;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
@@ -141,11 +141,20 @@ a:hover {
         margin-bottom: 15px;
     }
 
+    #findpw_top {
+        height: 50px;
+    }
+
+    .findpw_top_title {
+        font-size: 18px;
+    }
+
     form {
         width: 300px;
         border: 1px solid #C6C6C6;
         border-radius: 10px;
         padding-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     #findpw_box {

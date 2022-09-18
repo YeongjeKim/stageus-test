@@ -13,13 +13,15 @@
 
     <main>
         <div>
-            <img id="logo" src="../images/Daily logo black2.png">
+            <a href="../signin/signin.jsp">
+                <img id="logo" src="../images/Daily logo black2.png">
+            </a>
         </div>
 
         <form>
             <div id="findpw_top">
-                <a href="../findid/findid.jsp" id="subtitle" class="findid_top_title">ID 찾기</a>
-                <a href="findpw.jsp" id="title" class="findid_top_title">비밀번호 찾기</a>
+                <a href="../findid/findid.jsp" id="subtitle" class="findpw_top_title">ID 찾기</a>
+                <a href="findpw.jsp" id="title" class="findpw_top_title">비밀번호 찾기</a>
             </div>
 
             <P>다음 정보를 올바르게 입력해 주세요.</P>

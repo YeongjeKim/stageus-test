@@ -140,11 +140,20 @@ a:hover {
         margin-bottom: 15px;
     }
 
+    #findid_top {
+        height: 50px;
+    }
+
+    .findid_top_title {
+        font-size: 18px;
+    }
+
     form {
         width: 300px;
         border: 1px solid #C6C6C6;
         border-radius: 10px;
         padding-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     #findid_box {

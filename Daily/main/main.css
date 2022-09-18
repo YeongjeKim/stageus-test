@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C6C6C6;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+#header_left {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#logo {
+    height: 100%;
+}
+
+#logo_mobile {
+    display: none;
+    height: 100%;
+}
+
+#header_middle {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.month_button {
+    width: fit-content;
+    height: 100%;
+    background-color: #FFFFFF;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.month_button_image {
+    width: 30px;
+}
+
+#month_output {
+    width: 250px;
+    height: 100%;
+    color: #FFFFFF;
+    background-color: #FFC000;
+    border: 0px solid #FFC000;
+    border-radius: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header_right {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#profile_button {
+    padding: 8px;
+    border: 0;
+    background-color: #FFFFFF;
+}
+
+#profile_image {
+    width: 24px;
+}
+
+/* ------------------------------------------------------------------- */
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    padding-top: 60px;
+    background-color: #F0F0F0;
+}
+
+section {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.upload {
+    
+    /* height: ; */
+    /* border: 1px solid #FFC000; */
+    
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.upload_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload_datetime {
+    width: 210px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: #F0F0F0; */
+    border: 1px solid #C6C6C6;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+}
+
+.upload_button {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.upload_button_image {
+    width: 24px;
+    padding: 13px;
+}
+
+.upload_down {
+    width: 680px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.upload_memo {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    padding-left: 15px;
+    /* background-color: #F0F0F0; */
+    border: 1px solid #C6C6C6;
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+}
+
+.scedule {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scedule_left {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+#time {
+    font-size: 16px;
+    color: #555555;
+}
+
+#content {
+    font-size: 18px;
+}
+
+.scedule_right {
+    padding-right: 13px;
+}
+
+.scedule_button {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.scedule_button_image {
+    width: 24px;
+    padding: 13px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 415px) {
+    
+}

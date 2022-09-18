@@ -18,7 +18,7 @@ main {
 }
 
 section {
-    width: 400px;
+    width: fit-content;
     margin-bottom: 20px;
 }
 
@@ -72,16 +72,45 @@ article {
     font-size: 14px;
     font-family: 'Noto Sans KR', sans-serif;
     outline: none;
+    background-color: #FFFFFF;
 }
 
 #signup_button {
-    width: 100%;
+    width: 400px;
     height: 50px;
     color: #FFFFFF;
     background-color: #FFC000;
-    border: 0px solid black;
+    border: 1px solid #FFC000;
+    margin-top: 30px;
+    margin-bottom: 50px;
     border-radius: 10px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 22px;
     font-weight: 800;
+}
+
+
+@media (max-width: 415px) {
+    article {
+        width: 280px;
+        height: 50px;
+        border: 1px solid #C6C6C6;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #signup_button {
+        width: 300px;
+        height: 50px;
+        color: #FFFFFF;
+        background-color: #FFC000;
+        border: 1px solid #FFC000;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 22px;
+        font-weight: 800;
+    }
 }

@@ -101,6 +101,11 @@ a:hover {
         width: 300px;
         border-radius: 10px;
         padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    #signin_box {
+        margin-bottom: 20px;
     }
 
     #signin_bottom {

@@ -30,9 +30,9 @@
         </form>
 
         <div id="signin_bottom">
-            <a href="../signup/signup.jsp">회원가입</a>|
-            <a href="../findid/findid.jsp">아이디 찾기</a>|
-            <a href="../findpw/findpw.jsp">비밀번호 찾기</a>
+            <a href="../signup/signup.jsp">회원가입</a>
+            <a href="../findid/findid.jsp">아이디 · 비밀번호 찾기</a>
+            <!-- <a href="../findpw/findpw.jsp">비밀번호 찾기</a> -->
         </div>
 
     </main>

@@ -81,17 +81,22 @@
             </article>
 
             <article class="scedule">
-                <div class="scedule_left">
-                    <p id="time">09.22. 오후 02:00</p>
-                    <p id="content">과제 제출</p>
+                <div class="scedule_up">
+                    <div class="scedule_left">
+                        <p id="time">09.22. 오후 02:00</p>
+                        <p id="content_pc">과제 제출</p>
+                    </div>
+                    <div class="scedule_right">
+                        <button class="scedule_button">
+                            <img class="scedule_button_image" src="../images/edit.png">
+                        </button>
+                        <button class="scedule_button">
+                            <img class="scedule_button_image" src="../images/delete.png">
+                        </button>
+                    </div>
                 </div>
-                <div class="scedule_right">
-                    <button class="scedule_button">
-                        <img class="scedule_button_image" src="../images/edit.png">
-                    </button>
-                    <button class="scedule_button">
-                        <img class="scedule_button_image" src="../images/delete.png">
-                    </button>
+                <div class="scedule_down">
+                    <p id="content_mobile">과제 제출</p>
                 </div>
             </article>
 

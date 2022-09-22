@@ -1,4 +1,3 @@
-
 function showNav() {
     var show = document.getElementById("staff_list")
 

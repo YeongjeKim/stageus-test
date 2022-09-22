@@ -18,21 +18,22 @@
             </a>
         </div>
 
-        <form>
+        <form action="signup_action.jsp">
             <section>
                 <p>아이디</p>
                 <article>
-                    <input name="id_value" class="signup_input" type="text" placeholder="20자 이내" maxlength="20">
-                    <button class="check">중복확인</button>
+                    <input name="id_value" id="signup_id" class="signup_input" type="text" placeholder="20자 이내" maxlength="20">
+                    <button type="button" class="check" onclick="checkId()">중복확인</button>
                 </article>
             </section>
 
             <section>
                 <p>비밀번호</p>
                 <article>
-                    <input name="pw_value" class="signup_input" type="password" placeholder="20자 이내" maxlength="20">
-                    <button id="hide_seek">
-                        <img id="hide" src="../images/invisible.png">
+                    <input name="pw_value" id="signup_pw" class="signup_input" type="password" placeholder="20자 이내" maxlength="20">
+                    <button type="button" id="hide_seek" onclick="showPw()">
+                        <img id="hide" class="change" src="../images/invisible.png">
+                        <img id="seek" class="change" src="../images/visible.png">
                     </button>
                 </article>
             </section>
@@ -48,9 +49,9 @@
                 <p>부서</p>
                 <article>
                     <select name="team_value" class="signup_select">
-                        <option value="개발팀"> 개발팀 </option>
-                        <option value="교육팀"> 교육팀 </option>
-                        <option value="운영팀"> 운영팀 </option>
+                        <option value="development"> 개발팀 </option>
+                        <option value="education"> 교육팀 </option>
+                        <option value="operation"> 운영팀 </option>
                     </select>
                 </article>
             </section>
@@ -59,9 +60,9 @@
                 <p>직급</p>
                 <article>
                     <select name="position_value" class="signup_select">
-                        <option value="팀원"> 팀원 </option>
-                        <option value="팀장"> 팀장 </option>
-                        <option value="관리자"> 관리자 </option>
+                        <option value="member"> 팀원 </option>
+                        <option value="leader"> 팀장 </option>
+                        <option value="manager"> 관리자 </option>
                     </select>
                 </article>
             </section>
@@ -80,5 +81,7 @@
 
         </form>
     </main>
+
+    <script src="signup.js"></script>
 
 </body>

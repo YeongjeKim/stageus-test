@@ -210,13 +210,15 @@ article {
 }
 
 .upload {
-    
     /* height: ; */
     /* border: 1px solid #FFC000; */
-    
     margin-top: 30px;
     margin-bottom: 10px;
     padding: 10px;
+}
+
+form {
+    margin-bottom: 0;
 }
 
 .upload_up {
@@ -276,19 +278,19 @@ article {
     outline: none;
 }
 
-.scedule {
+.schedule {
     margin-top: 10px;
     padding: 10px;
     
 }
 
-.scedule_up {
+.schedule_up {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.scedule_left {
+.schedule_left {
     display: flex;
     align-items: center;
 }
@@ -308,28 +310,54 @@ p {
     font-size: 18px;
 }
 
-.scedule_button {
+.schedule_button {
     width: fit-content;
     background-color: #FFFFFF;
     border: 0;
     padding: 5px;
 }
 
-.scedule_button_image {
+.schedule_button_image {
     width: 24px;
     filter: grayscale(1);
 }
 
-.scedule_button_image:hover {
+.schedule_button_image:hover {
     filter: grayscale(0);
 }
 
-.scedule_down {
+.schedule_down {
     display: none;
 }
 
 #content_mobile {
     font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* ------------------------------------------------------------------- */
+
+#staff_name {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 5px;
 }
 
 /* ------------------------------------------------------------------- */
@@ -340,6 +368,22 @@ p {
         width: 90%;
     }
 
+}
+
+@media (max-width: 650px) {
+    #staff_name {
+        flex-direction: column;
+        height: 50px;
+    }
+    
+    h2 {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -380,12 +424,17 @@ p {
 
 
 @media (max-width: 415px) {
+
+    .upload {
+        margin-top: 20px;
+    }
+
     #month_output {
         margin-left: 0px;
         margin-right: 0px;
     }
 
-    .scedule_down {
+    .schedule_down {
         display: block;
     }
 
@@ -396,7 +445,7 @@ p {
 
 @media (max-width: 360px) {
     #month_output {
-        width: 100px;
+        width: 120px;
     }
 }
 

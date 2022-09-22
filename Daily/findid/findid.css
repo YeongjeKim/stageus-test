@@ -110,6 +110,10 @@ p {
     font-weight: 800;
 }
 
+#findid_button:hover {
+    cursor: pointer;
+}
+
 #findid_bottom {
     width: 400px;
     margin-top: 10px;

@@ -18,7 +18,7 @@
             </a>
         </div>
 
-        <form>
+        <form action="findid_action.jsp">
             <div id="findid_top">
                 <a href="findid.jsp" id="title" class="findid_top_title">ID 찾기</a>
                 <a href="../findpw/findpw.jsp" id="subtitle" class="findid_top_title">비밀번호 찾기</a>
@@ -37,7 +37,7 @@
         </form>
 
         <div id="findid_bottom">
-            <a href="../signin/signin.jsp">로그인</a> |
+            <a href="../signin/signin.jsp">로그인</a>
             <a href="../signup/signup.jsp">회원가입</a>
         </div>
     </main>

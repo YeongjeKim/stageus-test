@@ -17,7 +17,7 @@
             <img id="logo" src="../images/Daily logo black2.png">
         </div>
 
-        <form>
+        <form action="signin_action.jsp">
             <div id="signin_box">
                 <div id="signin_box_up">
                     <input name="id_value" class="signin_input" type="text" placeholder="아이디">
@@ -32,7 +32,6 @@
         <div id="signin_bottom">
             <a href="../signup/signup.jsp">회원가입</a>
             <a href="../findid/findid.jsp">아이디 · 비밀번호 찾기</a>
-            <!-- <a href="../findpw/findpw.jsp">비밀번호 찾기</a> -->
         </div>
 
     </main>

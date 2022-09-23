@@ -12,7 +12,7 @@
 <body>
     <header>
         <div id="header_left">
-            <button type="button" id="nav_button" class="header_button" onclick="showNav()">
+            <button type="button" id="nav_button" class="header_button" onclick="showNavEvent()">
                 <img class="header_button_image" src="../images/menu.png">
             </button>
 
@@ -35,7 +35,7 @@
         </div>
 
         <div id="header_right">
-            <button type="button" class="header_button" onclick="showProfileMenu()">
+            <button type="button" class="header_button" onclick="showProfileMenuEvent()">
                 <img class="header_button_image" src="../images/profile.png">
             </button>
 

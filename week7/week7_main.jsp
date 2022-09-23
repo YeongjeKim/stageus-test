@@ -37,8 +37,8 @@
         tmpData.add(result.getString(1));
         tmpData.add(result.getString(2));
         data.add(tmpData);
-        // result.getString(1);    //첫 번째 row의 id값을 가져온다는 의미
-        // result.getString(2);    //첫 번째 row의 pw값을 가져온다는 의미
+        // result.getString(1);    //첫 번째 row의 첫번째 값(id값)을 가져온다는 의미
+        // result.getString(2);    //첫 번째 row의 두번째 값(pw값)을 가져온다는 의미
     }
 
     Boolean isLogin = false;

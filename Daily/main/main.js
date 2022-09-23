@@ -1,4 +1,4 @@
-function showNav() {
+function showNavEvent() {
     var show = document.getElementById("staff_list")
 
     if(show.style.left == '-250px') {
@@ -9,7 +9,7 @@ function showNav() {
     }
 }
 
-function showProfileMenu() {
+function showProfileMenuEvent() {
     var show = document.getElementById("profile_menu")
     // var color = document.getElementById("header_button_image")
 
@@ -31,4 +31,5 @@ function showProfileMenu() {
 window.onload = function() {
     document.getElementById("staff_list").style.left = '-250px'
     document.getElementById("profile_menu").style.display = 'none'
+    // showProfileMenuEvent()에서 사용될 CSS의 초기값 설정
 }

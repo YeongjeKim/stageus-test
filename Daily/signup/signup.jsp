@@ -23,7 +23,7 @@
                 <p>아이디</p>
                 <article>
                     <input name="id_value" id="signup_id" class="signup_input" type="text" placeholder="20자 이내" maxlength="20">
-                    <button type="button" class="check" onclick="checkId()">중복확인</button>
+                    <button type="button" class="check" onclick="checkIdEvent()">중복확인</button>
                 </article>
             </section>
 
@@ -31,7 +31,7 @@
                 <p>비밀번호</p>
                 <article>
                     <input name="pw_value" id="signup_pw" class="signup_input" type="password" placeholder="20자 이내" maxlength="20">
-                    <button type="button" id="hide_seek" onclick="showPw()">
+                    <button type="button" id="hide_seek" onclick="showPwEvent()">
                         <img id="hide" class="change" src="../images/invisible.png">
                         <img id="seek" class="change" src="../images/visible.png">
                     </button>
@@ -41,7 +41,7 @@
             <section>
                 <p>이름</p>
                 <article>
-                    <input name="name_value" class="signup_input" type="text">
+                    <input name="name_value" id="signup_name" class="signup_input" type="text">
                 </article>
             </section>
 
@@ -70,13 +70,13 @@
             <section>
                 <p>전화번호</p>
                 <article>
-                    <input name="phone_value" class="signup_input" type="text" placeholder="-없이 입력하세요" maxlength="11">
+                    <input name="phone_value" id="signup_phone" class="signup_input" type="text" placeholder="-없이 입력하세요" maxlength="11">
                     <button class="check">중복확인</button>
                 </article>
             </section>
 
             <section>
-                <input id="signup_button" type="submit" value="가입하기">
+                <input id="signup_button" type="submit" onclick="checkValueEvent()" value="가입하기">
             </section>
 
         </form>

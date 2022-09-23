@@ -25,8 +25,13 @@
     ArrayList<ArrayList<String>> data = new ArrayList<ArrayList<String>>();
     while(result.next()) {
         ArrayList<String> tmpData = new ArrayList<String>();
+        tmpData.add(result.getString(1));
         tmpData.add(result.getString(2));
         tmpData.add(result.getString(3));
+        tmpData.add(result.getString(4));
+        tmpData.add(result.getString(5));
+        tmpData.add(result.getString(6));
+        tmpData.add(result.getString(7));
         data.add(tmpData);
     }
 

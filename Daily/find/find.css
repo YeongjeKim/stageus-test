@@ -1,0 +1,187 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+#find_top {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.find_top_title {
+    width: 50%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+#findid_title {
+    border-right: 1px solid #C6C6C6;
+    border-radius: 10px 10px 0px 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+#findid_subtitle {
+    border-bottom: 1px solid #C6C6C6;
+    color: #888888;
+    border-radius: 0px 10px 0px 0px;
+    background-color: #F8F8F8;
+}
+
+#findpw_subtitle {
+    border-bottom: 1px solid #C6C6C6;
+    color: #888888;
+    border-radius: 10px 0px 0px 0px;
+    background-color: #F8F8F8;
+}
+
+#findpw_title {
+    border-left: 1px solid #C6C6C6;
+    border-radius: 10px 10px 0px 0px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+form {
+    background-color: #FFFFFF;
+    width: 450px;
+    border: 1px solid #C6C6C6;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-top: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #888888;
+}
+
+#find_box {
+    width: 90%;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#find_box_up {
+    height: 40px;
+    border-bottom: 1px solid #DADADA;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#find_box_down {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.find_input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+}
+
+#find_button {
+    width: 90%;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #FFC000;
+    border: 0px solid black;
+    border-radius: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#find_button:hover {
+    cursor: pointer;
+}
+
+#find_bottom {
+    width: 400px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #888888;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #888888;
+}
+
+a:hover {
+    color: #FFC000;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* text-decoration: underline; */
+}
+
+@media (max-width: 415px) {
+    #logo {
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    #find_top {
+        height: 50px;
+    }
+
+    .find_top_title {
+        font-size: 18px;
+    }
+
+    form {
+        width: 300px;
+        border: 1px solid #C6C6C6;
+        border-radius: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    #find_box {
+        margin-bottom: 20px;
+    }
+
+    #find_bottom {
+        width: 300px;
+    }
+}

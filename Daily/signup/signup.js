@@ -45,4 +45,7 @@ function checkValueEvent() {
     else if(phone.length==0 || phone=="") {
         alert("전화번호를 입력해주세요.")
     }
+    else {
+        document.getElementById("signup").submit()
+    }
 }

@@ -33,7 +33,7 @@
                     <input name="phone_value" id="find_pw_phone" class="find_input" type="text" placeholder="전화번호 (-없이 입력하세요)">
                 </div>
             </div>
-            <input id="find_button" type="button" value="비밀번호 조회하기" onclick="findPw()">
+            <input id="find_button" type="button" value="비밀번호 조회하기" onclick="findPwEvent()">
         </form>
 
         <div id="find_bottom">

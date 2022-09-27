@@ -12,10 +12,10 @@
 <body>
     <main id="check_main">
         <h1>아이디 중복확인</h1>
-        <form id="check_form">
+        <form action="check_id_action.jsp" id="check_form">
             <div>
                 <input type="text" id="check_input" disabled>
-                <input type="button" id="check_button" value="중복확인">
+                <input type="submit" id="check_button" value="중복확인">
             </div>
             <div id="check_notify">
                 <p id="noftify_none">중복확인 버튼을 눌러 사용 가능 여부를 확인하세요.</p>

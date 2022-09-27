@@ -18,7 +18,7 @@
             </a>
         </div>
 
-        <form action="signup_action.jsp">
+        <form action="signup_action.jsp" id="signup">
             <section>
                 <p>아이디</p>
                 <article>
@@ -76,7 +76,7 @@
             </section>
 
             <section>
-                <input id="signup_button" type="submit" onclick="checkValueEvent()" value="가입하기">
+                <input id="signup_button" type="button" onclick="checkValueEvent()" value="가입하기">
             </section>
 
         </form>

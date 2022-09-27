@@ -1,4 +1,4 @@
-function findId() {
+function findIdEvent() {
     var name = document.getElementById("find_id_name").value
     var phone = document.getElementById("find_id_phone").value
 
@@ -13,7 +13,7 @@ function findId() {
     }
 }
 
-function findPw() {
+function findPwEvent() {
     var id = document.getElementById("find_pw_id").value
     var phone = document.getElementById("find_pw_phone").value
 

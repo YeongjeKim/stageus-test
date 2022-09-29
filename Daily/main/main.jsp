@@ -1,5 +1,19 @@
 <%@ page language="java" contentType="text/html" pageEncoding="utf-8" %>
 
+<%
+
+    request.setCharacterEncoding("utf-8");
+
+    session = request.getSession();
+    String idValue = (String)session.getAttribute("idValue");
+
+    if(idValue == null) {
+        alert("로그인 후 이용 가능한 페이지입니다.");
+        response.sendRedirect("../signin/signin.jsp");
+    }
+
+%>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

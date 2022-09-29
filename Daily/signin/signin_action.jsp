@@ -38,6 +38,9 @@
     Boolean isLogin = false;
     if (data.size() >= 1) {
         isLogin = true;
+        session.setAttribute("id_value", idValue);
+        session.setMaxInactiveInterval(60);
+        response.sendRedirect("../main/main.jsp");
     }
 %>
 
@@ -53,7 +56,7 @@
     <script>
         window.onload = function() {
             if (<%=isLogin%> == true) {
-                // alert("로그인 성공")
+                alert("로그인 성공")
                 location.href="../main/main.jsp"
             }
             else {

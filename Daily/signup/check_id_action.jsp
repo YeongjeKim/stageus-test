@@ -8,7 +8,7 @@
 <%
     request.setCharacterEncoding("utf-8");
 
-    String idValue = request.getParameter("check_input");
+    String idValue = request.getParameter("id_value");
 
     Class.forName("com.mysql.jdbc.Driver");
     Connection connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/daily", "yeongje", "1234");
@@ -43,12 +43,19 @@
 <body>
     <script>
         window.onload = function() {
-            if (<%=chaeckId%> == true) {
+            var checkId = <%=checkId%>
+            var data = <%=data%>
+            var idValue = <%= idValue %>
+
+            console.log(idValue)
+
+            if (checkId == true) {
                 alert("이 아이디는 사용할 수 없습니다.")
             }
             else {
                 alert("이 아이디는 사용 가능합니다.")
             }
+
         }
     </script>
 </body>

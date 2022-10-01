@@ -38,6 +38,7 @@
     Boolean isLogin = false;
     if (data.size() >= 1) {
         isLogin = true;
+        HttpSession session = request.getSession();
         session.setAttribute("id_value", idValue);
         session.setMaxInactiveInterval(60);
         response.sendRedirect("../main/main.jsp");

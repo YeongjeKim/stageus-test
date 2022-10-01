@@ -5,7 +5,7 @@
     request.setCharacterEncoding("utf-8");
 
     session = request.getSession();
-    String idValue = (String)session.getAttribute("idValue");
+    String idValue = (String)session.getAttribute("id_Value");
 
     if(idValue == null) {
         alert("로그인 후 이용 가능한 페이지입니다.");

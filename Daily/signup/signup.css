@@ -130,7 +130,7 @@ h1 {
     font-weight: 400;
 }
 
-#check_form{
+#check_box {
     display: flex;
     flex-direction: column;
     justify-content: center;

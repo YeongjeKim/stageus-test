@@ -12,11 +12,11 @@
 <body>
     <main id="check_main">
         <h1>아이디 중복확인</h1>
-        <form action="check_id_action.jsp" id="check_form">
-            <div>
-                <input type="text" id="check_input" disabled>
+        <div id="check_box">
+            <form action="check_id_action.jsp">
+                <input type="text" name="id_value" id="check_input" disabled>
                 <input type="submit" id="check_button" value="중복확인">
-            </div>
+            </form>
             <div id="check_notify">
                 <p id="noftify_none">중복확인 버튼을 눌러 사용 가능 여부를 확인하세요.</p>
                 <p id="noftify_impossible">사용 불가능한 아이디입니다.</p>
@@ -24,7 +24,7 @@
             </div>
             <input type="button" id="check_escape" value="취소" onclick="window.close()">
             <input type="button" id="check_use" value="사용하기" onclick="">
-        </form>
+        </div>
     </main>
 
     <script src="check_id.js"></script>

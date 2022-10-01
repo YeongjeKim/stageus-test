@@ -24,11 +24,9 @@
     ArrayList<ArrayList<String>> data = new ArrayList<ArrayList<String>>();
     while(result.next()) {
         ArrayList<String> tmpData = new ArrayList<String>();
-        tmpData.add(result.getString(3));
+        tmpData.add("\"" + result.getString(3) + "\"");
         data.add(tmpData);
     }
-
-    ArrayList<String> tmpData = data.get(0);
     
     Boolean checkId = false;
     if (data.size() >= 1) {
@@ -47,10 +45,13 @@
 <body>
     <script>
         window.onload = function() {
-            var chaeckId = <%=checkId%>
+            var checkId = <%= checkId %>
+            var data = <%=data%>
 
-            if (chaeckId == true) {
-                alert("회원님의 비밀번호는 <%=tmpData.get(0)%> 입니다")
+            console.log(data)
+
+            if (checkId == true) {
+                alert("회원님의 비밀번호는 " + data[0] + " 입니다")
                 var goToLogin = confirm("로그인 페이지로 이동하시겠습니까?")
                 if(goToLogin) {
                     location.href = "../signin/signin.jsp"
